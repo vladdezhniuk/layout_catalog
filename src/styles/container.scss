@@ -5,7 +5,8 @@
 }
 
 .container {
-  @include flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  justify-content: space-between;
+  grid-gap: 50px;
 }
