@@ -10,11 +10,11 @@
     width: 160px;
     height: 134px;
     margin: 0 auto 45px;
-    border: 3px solid transparent;
+    border: 0 solid transparent;
     transition: all 1s linear;
     &:hover {
       transform: scale(1.2);
-      border-color: #f3f3f3;
+      border: 3px solid #f3f3f3;
 
     }
   }
@@ -36,5 +36,25 @@
     background-color: transparent;
     color: #00acdc;
     border: 1px solid #00acdc;
+  }
+}
+
+.product__container {
+  margin-top: 50px;
+  margin-left: 48px;
+  &:nth-child(-n+4) {
+    margin-top: 0;
+  }
+  &:nth-child(4) {
+    margin-right: 40px;
+  }
+  &:nth-child(8) {
+    margin-right: 40px;
+  }
+  &:nth-child(1) {
+    margin-left: 40px;
+  }
+  &:nth-child(5) {
+    margin-left: 40px;
   }
 }
