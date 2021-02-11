@@ -3,19 +3,22 @@
   width: 200px;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding: 30px 14px 15px;
+  padding: 0 14px 15px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  &__image {
-    width: 160px;
-    height: 134px;
-    margin: 0 auto 45px;
-    border: 0 solid transparent;
+  &__wrap {
+    margin: 15px auto 39px;
+    padding: 12px 0 0 ;
+    border: 3px solid transparent;
     transition: all 1s linear;
     &:hover {
       transform: scale(1.2);
-      border: 3px solid #f3f3f3;
+      border-color: #f3f3f3;
 
+    }
+    .product__image {
+      width: 160px;
+      height: 134px;
     }
   }
   .product__button {
