@@ -1,0 +1,11 @@
+.container__main {
+  width: 1024px;
+  margin: 0 auto;
+
+}
+
+.container {
+  @include flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
