@@ -1,0 +1,11 @@
+.header__container {
+  max-width: 1200px;
+  min-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  margin: 0 auto;
+  .logo {
+    margin: 10px 0;
+  }
+}
