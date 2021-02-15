@@ -10,7 +10,7 @@
     margin: 15px auto 39px;
     padding: 12px 0 0 ;
     border: 3px solid transparent;
-    transition: all 1s linear;
+    transition: scale 1s linear, border-color 1s linear;
     &:hover {
       transform: scale(1.2);
       border-color: #f3f3f3;
